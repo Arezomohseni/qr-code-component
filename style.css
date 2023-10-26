@@ -1,0 +1,44 @@
+body {
+    font-family: "outfit";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(212, 46%, 89%);
+    padding: 0px;
+}
+
+
+div.img {
+    background-image: url("./images/image-qr-code.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+div.qr {
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    height: 480px;
+    padding: 15px;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+div.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    font-size: 15px;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 20px;
+}
